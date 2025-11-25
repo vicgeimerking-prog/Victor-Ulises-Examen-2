@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examen2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--barra de navegación -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Victor Ulises Galicia Arredondo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre mí">Acerca de mí</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--IMAGEN 1 - Sobre Mi-->
+    <main style="background-color: #0d2554; padding: 3rem 0;">
+      <section>
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-5 col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="1200">
+              <h1 style="font-size: 3rem; font-weight: bold; color: white; margin-bottom: 1.5rem;" data-aos="fade-up" data-aos-duration="500">Sobre mi</h1>
+              <div data-aos="fade-right" data-aos-duration="1800" data-aos-delay="500">
+                <p style="text-align: justify; color: white; line-height: 1.8; font-size: 1.05rem;">Victor Ulises Galicia Arredondo soy un estudiante de la carrera de ingenieria en sistemas computacionales y estoy en el grupo LISC0401 con matricula 125303049 y esta es la materia de compiladores</p>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1500" data-aos-delay="200" style="display: flex; justify-content: flex-end;">
+              <div style="position: relative;">
+                <!-- Elemento decorativo detrás -->
+                <div style="position: absolute; top: -20px; right: -20px; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);"></div>
+                <!-- Imagen -->
+                <img src="./assets/img/yo.3.jpg" alt="" class="img-fluid" style="width: 100%; max-width: 380px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 15px; position: relative; z-index: 1; box-shadow: 0 20px 50px rgba(0,0,0,0.4);">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--CONTACTO-->
+    <section style="background: linear-gradient(135deg, #1a5490 0%, #0d3d7a 100%); padding: 5rem 2rem; position: relative; overflow: hidden;">
+      <!-- Elementos decorativos de fondo -->
+      <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: rgba(255,255,255,0.05); border-radius: 50%;"></div>
+      <div style="position: absolute; bottom: -80px; left: -80px; width: 250px; height: 250px; background: rgba(255,255,255,0.03); border-radius: 50%;"></div>
+      
+      <div class="container" style="position: relative; z-index: 1;">
+        <h2 style="text-align: center; color: white; font-size: 2.8rem; font-weight: bold; margin-bottom: 4rem;" data-aos="fade-down" data-aos-duration="800">
+          Conecta Conmigo
+        </h2>
+        
+        <div class="row g-4">
+          <!-- Columna Izquierda: Redes Sociales -->
+          <div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
+            <h3 style="color: white; font-size: 1.5rem; font-weight: bold; margin-bottom: 2rem;">Redes Sociales</h3>
+            
+            <!-- WhatsApp Card -->
+            <div style="background: linear-gradient(135deg, rgba(37,211,102,0.1) 0%, rgba(37,211,102,0.05) 100%); border: 2px solid rgba(37,211,102,0.3); border-radius: 15px; padding: 1.5rem; margin-bottom: 1.5rem; transition: all 0.3s; cursor: pointer;" data-aos="zoom-in" data-aos-delay="200" onmouseover="this.style.transform='translateX(10px)'; this.style.borderColor='rgba(37,211,102,0.6)'; this.style.background='linear-gradient(135deg, rgba(37,211,102,0.2) 0%, rgba(37,211,102,0.1) 100%)'; this.style.boxShadow='0 10px 30px rgba(37,211,102,0.2)';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='rgba(37,211,102,0.3)'; this.style.background='linear-gradient(135deg, rgba(37,211,102,0.1) 0%, rgba(37,211,102,0.05) 100%)'; this.style.boxShadow='none';">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 50px; height: 50px; background-color: #25D366; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 1 1 5.593-2.82c.03.03 0 .151-.105.244l-.023.115.026.006c.035.145.1.439.1.513 0 .46-.312.856-.704.856-.505 0-.917-.393-.917-.879 0-.022.011-.042.013-.062a9.35 9.35 0 0 1 5.684-3.555.504.504 0 0 0 .502-.504A7.184 7.184 0 0 0 7.994 1.481Z"/></svg>
+                </div>
+                <div>
+                  <p style="color: #b0b0b0; font-size: 0.9rem; margin: 0;">WhatsApp</p>
+                  <a href="https://wa.me/5537089854" style="color: #25D366; font-weight: bold; text-decoration: none; font-size: 1.1rem;">+55 3708 9854</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Instagram Card -->
+            <div style="background: linear-gradient(135deg, rgba(225,48,108,0.1) 0%, rgba(225,48,108,0.05) 100%); border: 2px solid rgba(225,48,108,0.3); border-radius: 15px; padding: 1.5rem; margin-bottom: 1.5rem; transition: all 0.3s; cursor: pointer;" data-aos="zoom-in" data-aos-delay="300" onmouseover="this.style.transform='translateX(10px)'; this.style.borderColor='rgba(225,48,108,0.6)'; this.style.background='linear-gradient(135deg, rgba(225,48,108,0.2) 0%, rgba(225,48,108,0.1) 100%)'; this.style.boxShadow='0 10px 30px rgba(225,48,108,0.2)';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='rgba(225,48,108,0.3)'; this.style.background='linear-gradient(135deg, rgba(225,48,108,0.1) 0%, rgba(225,48,108,0.05) 100%)'; this.style.boxShadow='none';">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #E1306C 0%, #833AB4 50%, #FD1D1D 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.509-.198-1.09-.333-1.942-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.596.596 0 1 0 0 1.192.596.596 0 0 0 0-1.192zm-4.971 1.538a4.037 4.037 0 1 0 0 8.074 4.037 4.037 0 0 0 0-8.074zm0 1.068a2.969 2.969 0 1 1 0 5.938 2.969 2.969 0 0 1 0-5.938z"/></svg>
+                </div>
+                <div>
+                  <p style="color: #b0b0b0; font-size: 0.9rem; margin: 0;">Instagram</p>
+                  <a href="https://instagram.com/uli.gali" style="color: #E1306C; font-weight: bold; text-decoration: none; font-size: 1.1rem;">@uli.gali</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Facebook Card -->
+            <div style="background: linear-gradient(135deg, rgba(24,119,242,0.1) 0%, rgba(24,119,242,0.05) 100%); border: 2px solid rgba(24,119,242,0.3); border-radius: 15px; padding: 1.5rem; transition: all 0.3s; cursor: pointer;" data-aos="zoom-in" data-aos-delay="400" onmouseover="this.style.transform='translateX(10px)'; this.style.borderColor='rgba(24,119,242,0.6)'; this.style.background='linear-gradient(135deg, rgba(24,119,242,0.2) 0%, rgba(24,119,242,0.1) 100%)'; this.style.boxShadow='0 10px 30px rgba(24,119,242,0.2)';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='rgba(24,119,242,0.3)'; this.style.background='linear-gradient(135deg, rgba(24,119,242,0.1) 0%, rgba(24,119,242,0.05) 100%)'; this.style.boxShadow='none';">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 50px; height: 50px; background-color: #1877F2; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.166 1.791.166v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+                </div>
+                <div>
+                  <p style="color: #b0b0b0; font-size: 0.9rem; margin: 0;">Facebook</p>
+                  <a href="https://www.facebook.com/Brav0Merc" style="color: #1877F2; font-weight: bold; text-decoration: none; font-size: 1.1rem;">Brav0 Merc</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Columna Derecha: Mensaje + Info -->
+          <div class="col-lg-7 col-md-12" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
+            <div style="background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.08) 100%); border: 2px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 2.5rem; backdrop-filter: blur(10px); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+              <h3 style="color: white; font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem;" data-aos="fade-up" data-aos-delay="300">¿Listo para conectar?</h3>
+              <p style="color: #e0e0e0; font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem;" data-aos="fade-up" data-aos-delay="400">Estoy disponible para colaborar en proyectos interesantes, compartir ideas y crear soluciones innovadoras juntos. No dudes en contactarme a través de cualquiera de mis redes sociales.</p>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;" data-aos="fade-up" data-aos-delay="500">
+                <div style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; border-left: 4px solid #25D366;">
+                  <p style="color: #b0b0b0; font-size: 0.9rem; margin: 0 0 0.5rem 0;">Disponibilidad</p>
+                  <p style="color: white; font-weight: bold; font-size: 1.1rem; margin: 0;">Inmediata</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; border-left: 4px solid #1877F2;">
+                  <p style="color: #b0b0b0; font-size: 0.9rem; margin: 0 0 0.5rem 0;">Respuesta</p>
+                  <p style="color: white; font-weight: bold; font-size: 1.1rem; margin: 0;">Rápida</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Certificaciones Tecnologicas-->
+    <section style="background: linear-gradient(135deg, #0a3f7d 0%, #1a5490 100%); padding: 4rem 2rem; min-height: auto;">
+      <div class="container">
+        <h2 style="text-align: center; color: white; font-size: 2.5rem; font-weight: bold; margin-bottom: 3rem;" data-aos="fade-up">Certificaciones Tecnologicas</h2>
+        <div class="row g-3 justify-content-center">
+          <!-- Microsoft Office -->
+          <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+            <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transition: all 0.3s; text-align: center; padding: 1.5rem; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='scale(1.08) rotateZ(-2deg)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.2)';">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#0078D4" viewBox="0 0 100 100" style="margin-bottom: 1rem;">
+                <rect width="100" height="100" fill="#0078D4"/>
+                <text x="50" y="60" font-size="50" font-weight="bold" fill="white" text-anchor="middle">W</text>
+              </svg>
+              <h3 style="color: #0078D4; font-weight: bold; margin-bottom: 0.5rem; font-size: 1.1rem;">Microsoft<br>Office</h3>
+              <p style="color: #666; font-size: 0.85rem; margin: 0;">Word, Excel,<br>PowerPoint</p>
+            </div>
+          </div>
+          <!-- C++ -->
+          <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+            <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transition: all 0.3s; text-align: center; padding: 1.5rem; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='scale(1.08) rotateZ(2deg)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.2)';">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#00599C" viewBox="0 0 100 100" style="margin-bottom: 1rem;">
+                <rect width="100" height="100" fill="#00599C"/>
+                <text x="50" y="65" font-size="45" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">C++</text>
+              </svg>
+              <h3 style="color: #00599C; font-weight: bold; margin-bottom: 0.5rem; font-size: 1.1rem;">C++</h3>
+              <p style="color: #666; font-size: 0.85rem; margin: 0;">Programacion<br>Avanzada</p>
+            </div>
+          </div>
+          <!-- Python -->
+          <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+            <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transition: all 0.3s; text-align: center; padding: 1.5rem; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='scale(1.08) rotateZ(-2deg)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.2)';">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100" style="margin-bottom: 1rem;">
+                <defs>
+                  <linearGradient id="pythonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#3776AB;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#FFD43B;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <rect width="100" height="100" fill="url(#pythonGrad)"/>
+                <text x="50" y="65" font-size="45" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">Py</text>
+              </svg>
+              <h3 style="color: #3776AB; font-weight: bold; margin-bottom: 0.5rem; font-size: 1.1rem;">Python</h3>
+              <p style="color: #666; font-size: 0.85rem; margin: 0;">Data Science<br>Web Dev</p>
+            </div>
+          </div>
+          <!-- Java -->
+          <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+            <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.2); transition: all 0.3s; text-align: center; padding: 1.5rem; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;" onmouseover="this.style.transform='scale(1.08) rotateZ(2deg)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.4)';" onmouseout="this.style.transform='scale(1) rotateZ(0)'; this.style.boxShadow='0 5px 20px rgba(0,0,0,0.2)';">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100" style="margin-bottom: 1rem;">
+                <defs>
+                  <linearGradient id="javaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#007396;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#F80000;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <rect width="100" height="100" fill="url(#javaGrad)"/>
+                <text x="50" y="60" font-size="40" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">☕</text>
+              </svg>
+              <h3 style="color: #007396; font-weight: bold; margin-bottom: 0.5rem; font-size: 1.1rem;">Java</h3>
+              <p style="color: #666; font-size: 0.85rem; margin: 0;">Backend<br>Enterprise</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
